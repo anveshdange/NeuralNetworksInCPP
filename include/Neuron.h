@@ -1,5 +1,5 @@
-#ifndef _NEURON_HPP_ 
-#define _NEURON_HPP_ 
+#ifndef _NEURON_H_ 
+#define _NEURON_H_ 
 
 // Header files 
 #include <iostream> 

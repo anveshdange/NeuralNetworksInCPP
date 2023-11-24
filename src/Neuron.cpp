@@ -5,7 +5,7 @@
 
 // Includes 
 #include <cmath>
-#include "../include/Neuron.hpp" 
+#include "../include/Neuron.h" 
 
 // Constructor
 Neuron::Neuron(double val)

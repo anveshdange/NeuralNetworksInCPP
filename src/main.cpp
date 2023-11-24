@@ -1,6 +1,6 @@
 // Includes
 #include <iostream> 
-#include "../include/Neuron.hpp"
+#include "../include/Neuron.h"
 
 using namespace std; 
 
