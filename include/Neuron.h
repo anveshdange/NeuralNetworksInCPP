@@ -40,6 +40,7 @@ class Neuron
         */
         double derivedVal; // derivative of activatedVal 
         
+        
 
 };
 
