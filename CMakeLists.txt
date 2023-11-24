@@ -8,6 +8,6 @@ set(CMAKE_CXX_FLAGE "${CMAKE_CXX_FLAGS} -std=c++17")
 add_executable(
     nn
     src/main.cpp 
-    src/Neuron.cpp 
-    src/Layer.cpp
+    src/Neuron.cc 
+    src/Layer.cc
 )

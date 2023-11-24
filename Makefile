@@ -129,53 +129,53 @@ nn/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/build
 .PHONY : nn/fast
 
-src/Layer.o: src/Layer.cpp.o
+src/Layer.o: src/Layer.cc.o
 .PHONY : src/Layer.o
 
 # target to build an object file
-src/Layer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Layer.cpp.o
-.PHONY : src/Layer.cpp.o
+src/Layer.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Layer.cc.o
+.PHONY : src/Layer.cc.o
 
-src/Layer.i: src/Layer.cpp.i
+src/Layer.i: src/Layer.cc.i
 .PHONY : src/Layer.i
 
 # target to preprocess a source file
-src/Layer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Layer.cpp.i
-.PHONY : src/Layer.cpp.i
+src/Layer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Layer.cc.i
+.PHONY : src/Layer.cc.i
 
-src/Layer.s: src/Layer.cpp.s
+src/Layer.s: src/Layer.cc.s
 .PHONY : src/Layer.s
 
 # target to generate assembly for a file
-src/Layer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Layer.cpp.s
-.PHONY : src/Layer.cpp.s
+src/Layer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Layer.cc.s
+.PHONY : src/Layer.cc.s
 
-src/Neuron.o: src/Neuron.cpp.o
+src/Neuron.o: src/Neuron.cc.o
 .PHONY : src/Neuron.o
 
 # target to build an object file
-src/Neuron.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Neuron.cpp.o
-.PHONY : src/Neuron.cpp.o
+src/Neuron.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Neuron.cc.o
+.PHONY : src/Neuron.cc.o
 
-src/Neuron.i: src/Neuron.cpp.i
+src/Neuron.i: src/Neuron.cc.i
 .PHONY : src/Neuron.i
 
 # target to preprocess a source file
-src/Neuron.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Neuron.cpp.i
-.PHONY : src/Neuron.cpp.i
+src/Neuron.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Neuron.cc.i
+.PHONY : src/Neuron.cc.i
 
-src/Neuron.s: src/Neuron.cpp.s
+src/Neuron.s: src/Neuron.cc.s
 .PHONY : src/Neuron.s
 
 # target to generate assembly for a file
-src/Neuron.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Neuron.cpp.s
-.PHONY : src/Neuron.cpp.s
+src/Neuron.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Neuron.cc.s
+.PHONY : src/Neuron.cc.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
