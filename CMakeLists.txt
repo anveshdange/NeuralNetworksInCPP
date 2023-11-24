@@ -9,4 +9,5 @@ add_executable(
     nn
     src/main.cpp 
     src/Neuron.cpp 
+    src/Layer.cpp
 )

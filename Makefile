@@ -129,6 +129,30 @@ nn/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/build
 .PHONY : nn/fast
 
+src/Layer.o: src/Layer.cpp.o
+.PHONY : src/Layer.o
+
+# target to build an object file
+src/Layer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Layer.cpp.o
+.PHONY : src/Layer.cpp.o
+
+src/Layer.i: src/Layer.cpp.i
+.PHONY : src/Layer.i
+
+# target to preprocess a source file
+src/Layer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Layer.cpp.i
+.PHONY : src/Layer.cpp.i
+
+src/Layer.s: src/Layer.cpp.s
+.PHONY : src/Layer.s
+
+# target to generate assembly for a file
+src/Layer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Layer.cpp.s
+.PHONY : src/Layer.cpp.s
+
 src/Neuron.o: src/Neuron.cpp.o
 .PHONY : src/Neuron.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... nn"
+	@echo "... src/Layer.o"
+	@echo "... src/Layer.i"
+	@echo "... src/Layer.s"
 	@echo "... src/Neuron.o"
 	@echo "... src/Neuron.i"
 	@echo "... src/Neuron.s"

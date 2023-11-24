@@ -7,12 +7,21 @@
 #include <cmath>
 #include "../include/Neuron.h" 
 
+void 
+Neuron::setVal(double v)
+{
+    this->val = val;
+    activate();
+    derive(); 
+    return; 
+}
+
 // Constructor
 Neuron::Neuron(double val)
 {
     this->val = val; 
     activate(); 
-    derivative();
+    derive();
 }
 
 // Fast Sigmoid function (Activation Function) 
@@ -27,7 +36,7 @@ Neuron::activate()
 // Derivative for Fast Sigmoid Function 
 // f'(x) = f(x)  * (1 - f(x)) 
 void 
-Neuron::derivative()
+Neuron::derive()
 {
     this->derivedVal = this->activatedVal * (1- this->activatedVal); 
     return;

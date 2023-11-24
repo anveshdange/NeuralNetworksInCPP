@@ -7,7 +7,7 @@ using namespace std;
 int 
 main(int argc, char **argv)
 {
-    Neuron *n = new Neuron(1000); 
+    Neuron *n = new Neuron(0.9); 
     std::cout<<"Val: "<< n->getVal() <<std::endl; 
     std::cout<<"Activated Val: "<< n->getActivatedVal()<<std::endl;
     std::cout<<"Derieved Val: "<< n->getDerivedVal()<<std::endl;
