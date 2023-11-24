@@ -11,4 +11,5 @@ add_executable(
     src/Neuron.cc 
     src/Layer.cc
     src/Matrix.cc
+    src/NeuralNetwork.cc
 )
