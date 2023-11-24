@@ -50,3 +50,31 @@ Matrix::printToConsole()
         std::cout<<std::endl;
     }
 }
+
+Matrix
+*Matrix::transpose()
+{
+    Matrix *m = new Matrix(this->numCols, this->numRows, false);
+    for(int i=0;i<numRows;++i )
+    {
+        for(int j=0; j<numCols; ++j)
+        {
+            m->setValue(j, i, this->getValue(i, j)); 
+        }
+    } 
+
+    return m;
+}
+
+void 
+Matrix::setValue(int r, int c, double v) 
+{
+    this->values.at(r).at(c) = v; 
+    return;
+}
+
+double 
+Matrix::getValue(int r, int c)
+{
+    return this->values.at(r).at(c); 
+}
