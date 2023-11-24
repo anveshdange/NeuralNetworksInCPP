@@ -153,6 +153,30 @@ src/Layer.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Layer.cc.s
 .PHONY : src/Layer.cc.s
 
+src/Matrix.o: src/Matrix.cc.o
+.PHONY : src/Matrix.o
+
+# target to build an object file
+src/Matrix.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Matrix.cc.o
+.PHONY : src/Matrix.cc.o
+
+src/Matrix.i: src/Matrix.cc.i
+.PHONY : src/Matrix.i
+
+# target to preprocess a source file
+src/Matrix.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Matrix.cc.i
+.PHONY : src/Matrix.cc.i
+
+src/Matrix.s: src/Matrix.cc.s
+.PHONY : src/Matrix.s
+
+# target to generate assembly for a file
+src/Matrix.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/src/Matrix.cc.s
+.PHONY : src/Matrix.cc.s
+
 src/Neuron.o: src/Neuron.cc.o
 .PHONY : src/Neuron.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... src/Layer.o"
 	@echo "... src/Layer.i"
 	@echo "... src/Layer.s"
+	@echo "... src/Matrix.o"
+	@echo "... src/Matrix.i"
+	@echo "... src/Matrix.s"
 	@echo "... src/Neuron.o"
 	@echo "... src/Neuron.i"
 	@echo "... src/Neuron.s"

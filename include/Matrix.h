@@ -4,6 +4,7 @@
 // Includes 
 #include <iostream> 
 #include <vector>
+#include <random>
 
 /*
 * Implementation of the Matrix Class

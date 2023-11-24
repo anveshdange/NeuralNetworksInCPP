@@ -11,13 +11,13 @@ Matrix::Matrix(int numRows, int numCols, bool isRandom)
 
     for(int i=0; i<numRows; ++i)
     {
-        vector<double> colValues;
+        std::vector<double> colValues;
         for(int j =0; j<numCols; ++j)
         {
             double r = 0.00; 
             if (isRandom) 
             {
-                double r = this->generateRandomNumber();
+                r = this->generateRandomNumber();
             } 
             colValues.push_back(r); 
         }
@@ -35,7 +35,7 @@ Matrix::generateRandomNumber()
     std::mt19937 gen(rd());
     std::uniform_real_distribution<> dis(0, 1); 
 
-    return dist(gen);    
+    return dis(gen);    
 }
 
 void 
